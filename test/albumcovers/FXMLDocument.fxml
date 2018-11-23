@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="304.0" prefWidth="415.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="albumcovers.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="previousB" layoutX="21.0" layoutY="140.0" mnemonicParsing="false" text="previous " />
+      <Button fx:id="nextB" layoutX="329.0" layoutY="140.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="next" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="114.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="poster" fitHeight="150.0" fitWidth="200.0" layoutX="108.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" />
+      <Label alignment="CENTER" layoutX="81.0" layoutY="7.0" prefHeight="35.0" prefWidth="262.0" text="Spotify album covers ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputTF" layoutX="113.0" layoutY="252.0" prefHeight="25.0" prefWidth="190.0" />
+      <Button fx:id="searchB" layoutX="335.0" layoutY="247.0" mnemonicParsing="false" text="search" />
+      <Label layoutX="21.0" layoutY="252.0" prefHeight="25.0" prefWidth="50.0" text="Artist">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
